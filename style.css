@@ -1,0 +1,191 @@
+body {
+  width: 600;
+  background-image: url("images/bckgrnd.jpg");
+  display: block;
+  background-repeat: no-repeat;
+  font-family: 'Dosis', sans-serif;
+}
+
+#colors a{
+	color: red;
+	text-decoration: none;
+	padding: 6px;
+  border: 2px solid black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+  display: inline-block;
+
+}
+
+#colors a:hover{
+	color: Yellow;
+  font-size: 16px;
+	text-decoration: none;
+	background-color: #A0E88B;
+  color: #14116F;
+	padding: 6px;
+	border-radius: 3px;
+}
+
+
+
+.round {
+  width: 550px;
+  height: 50px;
+  background-color: #683A09;
+  margin: 5px;
+  border: 2px solid black;
+
+}
+
+
+
+#GameCode {
+  background-color: #9A6328;
+  height: 60px;
+  width: 600px;
+  margin: 5px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+  margin-top: 175px;
+
+}
+
+#gameboard {
+margin-left: 175px;
+margin-top: 150px;
+}
+
+.gameCodeDisplay {
+  width: 600px;
+  display: inline;
+  padding: 15px;
+  display: flex;
+  justify-content:space-around;
+
+}
+
+h2 {
+  display: inline;
+  text-align: center;
+  font-size: 28px;
+
+}
+
+#winner {
+  color: green;
+  font-weight: bold;
+}
+
+#loser {
+  color: red;
+  font-weight: bold;
+}
+
+.level{
+  background-color: #68431C;
+  height: 60px;
+  width: 600px;
+  margin: 5px;
+  border: 2px solid black;
+  margin-left: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+h3{
+display: inline;
+font-size: 24px;
+padding: 4px;
+
+}
+
+
+.buttondisplay {
+  width: 600px;
+  /*margin: 15px;*/
+  display: inline;
+  padding: 15px;
+  display: flex;
+  justify-content:space-around;
+
+}
+
+.button {
+  padding: 15px;
+  height: 15px;
+  width: 15px;
+  border: 2px solid black;
+  border-radius: 45px;
+}
+
+.code {
+  padding: 15px;
+  height: 15px;
+  width: 15px;
+  border: 2px solid black;
+  border-radius: 45px;
+}
+
+
+
+
+
+a {
+    color: red;
+}
+
+.results {
+   display: inline;
+   margin-top: 2px;
+}
+
+#res1 {
+  display: inline;
+  margin-top: 2px;
+}
+
+.submitter {
+  display: inline;
+  padding: 6px;
+  border: 2px solid black;
+  color: #6FB8ED;
+  font-size: 28px;
+  background-color: #9A6328;
+}
+
+Footer {
+  width: 900px;
+  text-align: center;
+  margin-top: 20px;
+}
+footer h3{
+  color: black;
+  padding: 5px;
+  margin-top: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #9A6328;
+}
+
+#instructions {
+    width: 600px;
+    margin: auto 0;
+    background-color: #9A6328;
+margin-left: 150px;
+    display: block;
+}
+
+#historyofGame {
+  width: 600px;
+  margin: auto 0;
+  background-color: #9A6328;
+margin-left: 150px;
+  display: block;
+}

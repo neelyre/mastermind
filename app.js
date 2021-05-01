@@ -379,17 +379,11 @@ console.log(resCollection[rounds - 1]);
                         if (correctAnswers == 2 && correctColors == 1) {
                             $(resCollection[rounds - 1]).empty().append("<img src = images/results/2b_1w.png>");
                         }
-                        if (correctAnswers == 3 && correctColors == 1) {
-                            $(resCollection[rounds - 1]).empty().append("<img src = images/results/3b_1w.png>");
-                        }
                         if (correctAnswers == 1 && correctColors == 2) {
                             $(resCollection[rounds - 1]).empty().append("<img src = images/results/1b_2w.png>");
                         }
                         if (correctAnswers == 2 && correctColors == 2) {
                             $(resCollection[rounds - 1]).empty().append("<img src = images/results/2b_2w.png>");
-                        }
-                        if (correctAnswers == 3 && correctColors == 1) {
-                            $(resCollection[rounds - 1]).empty().append("<img src = images/results/3b_1w.png>");
                         }
                         if (correctAnswers == 1 && correctColors == 3) {
                             $(resCollection[rounds - 1]).empty().append("<img src = images/results/1b_3w.png>");

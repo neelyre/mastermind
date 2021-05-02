@@ -391,7 +391,7 @@ console.log(resCollection[rounds - 1]);
                         if (correctAnswers == 0 && correctColors == 0) {
                             $(resCollection[rounds - 1]).empty().append("<img src = images/results/noColors.png>");
                         }
- if (rounds === 10  && correctAnswers !== 4)) {
+ if (rounds === 10  && correctAnswers !== 4) {
    $('#answerA').show();
    $('#answerB').show();
    $('#answerC').show();
